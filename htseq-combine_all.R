@@ -42,7 +42,6 @@ print(sprintf("######### merge END ######### %s", format(Sys.time(),"%b_%d_%Y_%H
 print(sprintf("Exported merged table within work directory in txt and Rdata format with file name merged_%s_%s", make.names(format(Sys.time(),"%b_%d_%Y_%H_%M_%S_%Z")), myoutname))
  
 write.table(df,paste(path, myoutname,".txt",sep=""), sep="\t", quote= F, row.names = F)
- 
 save.image(paste(path, myoutname,".Rdata",sep=""))
  
 print(sprintf("######### MERGE FUNCTION COMPLETE ######### %s", format(Sys.time(),"%b_%d_%Y_%H_%M_%S_%Z")))
