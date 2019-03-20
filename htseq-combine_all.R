@@ -1,6 +1,6 @@
-## R script for looping throught the htseq outputs and merge them into one matrix
+## R script for combine HTSeq outputs into one read count matrix in R
 ## Written by Ahmed Alhendi
-#Usage example:  Rscript htseq-combine_all.R <workdir> <Reacount_matrix_output_name>
+## Usage example:  Rscript htseq-combine_all.R <workdir> <Reacount_matrix_output_name>
  
 args <- commandArgs(TRUE)
 path <- as.character(args[1])
