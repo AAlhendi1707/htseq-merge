@@ -1,6 +1,6 @@
 ## R script for looping throught the htseq outputs and merge them into one matrix
 ## Written by Ahmed Alhendi
-#Usage example:  Rscript htseq-combine_all.R {workdir} {Reacount_matrix_output_name}
+#Usage example:  Rscript htseq-combine_all.R <workdir> <Reacount_matrix_output_name>
  
 args <- commandArgs(TRUE)
 path <- as.character(args[1])
