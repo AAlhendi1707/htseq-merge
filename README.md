@@ -14,4 +14,4 @@ Usage:
 
 From Linux/UNIX terminal run
 
-Rscript htseq-combine_all.R <Workdir> <Reacount_matrix_output_name>
+Rscript htseq-combine_all.R <Workingdir> <Reacount_matrix_output_name>
