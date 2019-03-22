@@ -6,3 +6,10 @@ This repository contains small scripts that provide solutions for RNA-seq analys
 Ahmed Alhendi (Dr)
 
 Dated: 20 March 2019
+
+
+Usage example:
+
+From Linux/UNIX terminal run
+
+Rscript  htseq-combine_all.R  <workdir> <Reacount_matrix_output_name>
