@@ -10,7 +10,7 @@ Dated: 20 March 2019
 
 
 
-Usage example:
+Usage:
 
 From Linux/UNIX terminal run
 
