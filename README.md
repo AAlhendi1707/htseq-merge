@@ -14,7 +14,7 @@ No installation required
 
 # Usage example
 
-1- Download the Rscript [htseq-merge_all.R](https://github.com/AAlhendi1707/htseq-merge/blob/master/htseq-merge_all.R) to your Linux/UNIX machine:
+1- Download the Rscript `htseq-merge_all.R`to your Linux/UNIX machine:
 
 ```shell
 wget "https://github.com/AAlhendi1707/htseq-merge/blob/master/htseq-merge_all.R?raw=true" -O htseq-merge_all.R
