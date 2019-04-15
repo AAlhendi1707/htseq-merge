@@ -12,8 +12,11 @@ The HTSeq has extracted counts from each BAM file and created one corresponding 
 No installation required
 
 
-# Usage 
+# Usage example
 
 From Linux/UNIX terminal run
-
+```shell
 Rscript htseq-combine_all.R <Path_To_HTSEQ_Outputs> <Reacount_matrix_output_name>
+```
+
+A detailed example available [here](https://ahmedalhendi0.wordpress.com/2019/03/20/combine-htseq-outputs-into-one-read-count-matrix-in-r/)
