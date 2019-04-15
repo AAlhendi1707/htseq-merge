@@ -14,9 +14,15 @@ No installation required
 
 # Usage example
 
-From Linux/UNIX terminal run
+1- Download the Rscript `htseq-merge_all.R` to your Linux/Unix Machine:
+
+```shell
+wget "https://github.com/AAlhendi1707/htseq-merge/blob/master/htseq-merge_all.R?raw=true" -O htseq-merge_all.R
+```
+
+2- From Linux/UNIX terminal run
 ```shell
 Rscript htseq-combine_all.R <Path_To_HTSEQ_Outputs> <Reacount_matrix_output_name>
 ```
 
-A detailed example available [here](https://ahmedalhendi0.wordpress.com/2019/03/20/combine-htseq-outputs-into-one-read-count-matrix-in-r/)
+A detailed example can be found [here](https://ahmedalhendi0.wordpress.com/2019/03/20/combine-htseq-outputs-into-one-read-count-matrix-in-r/)
