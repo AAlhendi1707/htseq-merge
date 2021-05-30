@@ -27,7 +27,7 @@ print(sprintf("######### file read START ######### %s", format(Sys.time(),"%b_%d
  
 cov <- list()
 for (i in labs) {
-filepath <- file.path(path,paste(i,".cnt",sep=""))
+filepath <- file.path(path,paste(i,".txt",sep=""))
 cov[[i]] <- read.table(filepath,sep = "\t", header=F, stringsAsFactors=FALSE)
 colnames(cov[[i]]) <- c("ENSEMBL_GeneID", i)
 }
